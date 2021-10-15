@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "26228ce5-6922-4f1f-a8bc-ed80081dd620",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "ana",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "anaaa2002@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "bolodemorango",
+							"type": "text"
+						},
+						{
+							"key": "tipoConta",
+							"value": "loca",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://172.16.16.118:8001/api/register",
+					"protocol": "http",
+					"host": [
+						"172",
+						"16",
+						"16",
+						"118"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Somar numeros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
